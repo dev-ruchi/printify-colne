@@ -42,10 +42,10 @@ const Navbar = () => {
 
         {/* Authentication Buttons */}
         <div className="flex items-center">
-          <button className="btn btn-primary mr-4 text-xl px-6 py-2 border-2 rounded my-4 border-gray-400  hover:text-green-600">
+          <button className="py-2.5 px-5 me-2 my-4 font-medium text-gray-900 focus:outline-none text-sm bg-white rounded border border-gray-200 focus:ring-4 focus:ring-green-300 hover:text-green-600">
             Log in
           </button>
-          <button className="btn btn-primary text-white text-xl px-6 py-2 rounded my-4 bg-green-600 hover:bg-green-600">
+          <button className="focus:outline-none text-sm text-white bg-green-600 hover:bg-green-700 focus:ring-4 focus:ring-green-300 font-medium rounded  px-5 py-2.5 me-2 my-2">
             Sign up
           </button>
         </div>
