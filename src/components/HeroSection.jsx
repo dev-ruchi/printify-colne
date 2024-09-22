@@ -76,6 +76,27 @@ const HeroSection = () => {
             </p>
           </div>
         </div>
+        <div className="flex mt-52">
+        <div className="md:w-1/2 mt-8 md:mt-0">
+          <img
+            src="https://miro.medium.com/v2/resize:fit:1234/1*79g_OzD8-asJ56wPOtzATg.jpeg"
+            alt="Print-on-demand illustration"
+            className="border rounded-3xl h-auto"
+          />
+        </div>
+        <div className="max-w-screen-xl mx-auto px-4 flex flex-col md:flex-row items-center mt-8 ml-12">
+          <div className="md:w-1/2 ml-32">
+            <h1 className="text-3xl font-bold">
+              Easily add your design to a wide range of products
+            </h1>
+            <p className="mt-6 text-lg text-gray-600">
+              With our free design tools, you can easily add your custom designs
+              to t-shirts, mugs, phone cases, and hundreds of other products.
+            </p>
+            <p className="text-green-600 mt-12">All products</p>
+          </div>
+        </div>
+        </div>
       </section>
     </div>
   );
