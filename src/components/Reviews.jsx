@@ -1,5 +1,6 @@
 import React from "react";
 import ReviewsList from "./ReviewsList";
+import Footer from "./Footer";
 
 const Reviews = () => {
   return (
@@ -54,7 +55,7 @@ const Reviews = () => {
           <img src="/girl.jpeg" alt="T-shirt" className="rounded-lg"/>
         </div>
       </div>
-      
+      <Footer />
     </>
   );
 };

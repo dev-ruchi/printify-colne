@@ -1,8 +1,5 @@
 import React from "react";
 import ReviewCard from "./ReviewCard";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { } from "@fortawesome/free-solid-svg-icons";
-
 
 const ReviewsList = () => {
   const reviews = [
