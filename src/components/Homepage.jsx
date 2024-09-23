@@ -1,4 +1,5 @@
 import React from "react";
+import Reviews from "./Reviews";
 
 const Homepage = () => {
   return (
@@ -8,7 +9,7 @@ const Homepage = () => {
           <img
             src="https://printify.com/pfh/assets/legacy/custom-products.png"
             alt="Higher Profits Icon"
-            className="w-40 mr-28 mb-8"
+            className="w-40 mr-32 mb-8"
           />
           <div className="text-left">
             <h1 className="text-xl font-bold mb-4 text-green-600">CREATE</h1>
@@ -24,7 +25,7 @@ const Homepage = () => {
           <img
             src="https://printify.com/pfh/assets/legacy/your-products.png"
             alt="Robust Scaling Icon"
-            className="w-40 mr-28 mb-8"
+            className="w-40 mr-48 mb-8"
           />
           <div className="text-left">
             <h1 className="text-xl font-bold mb-4 text-green-600">SELL</h1>
@@ -59,6 +60,7 @@ const Homepage = () => {
           Talk to sales
         </button>
       </div>
+      <Reviews />
     </>
   );
 };
