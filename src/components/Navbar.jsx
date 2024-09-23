@@ -15,14 +15,15 @@ const Navbar = () => {
           </Link>
         </div>
 
-        {/* Navigation Links */}
-        <div className="flex gap-8 items-center text-lg text-gray-600">
+        {/* Navigation Links (hidden on mobile) */}
+        <div className="hidden md:flex gap-8 items-center text-lg text-gray-600">
           <Link to="/catalog" className="hover:text-green-500">
             Catalog
           </Link>
           <Link to="/how-it-works" className="hover:text-green-500">
             How it works
           </Link>
+
           <Link to="/pricing" className="hover:text-green-500">
             Pricing
           </Link>
