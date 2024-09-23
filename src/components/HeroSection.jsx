@@ -95,12 +95,12 @@ const HeroSection = () => {
             </div>
           </div>
         </div>
-        <div className="flex mt-52">
-          <div className="md:w-1/2 mt-8 md:mt-0">
+        <div className="flex mt-52 bg-slate-50">
+          <div className="md:w-1/2 mt-8 md:mt-0 ">
             <img
               src="https://miro.medium.com/v2/resize:fit:1234/1*79g_OzD8-asJ56wPOtzATg.jpeg"
               alt="Print-on-demand illustration"
-              className="border relative ml-14 rounded-3xl h-auto"
+              className="border relative my-16 ml-14 rounded-3xl h-auto"
             />
           </div>
           <div className="max-w-screen-xl mx-auto px-4 flex flex-col md:flex-row items-center mt-8 ml-12">
@@ -120,8 +120,8 @@ const HeroSection = () => {
             </div>
           </div>
         </div>
+        <Homepage />
       </section>
-      <Homepage />
     </div>
   );
 };
