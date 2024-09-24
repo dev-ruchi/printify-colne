@@ -13,7 +13,7 @@ import {
 const Footer = () => {
   return (
     <div>
-      <div className="flex flex-col md:flex-row justify-between items-center p-4 bg-white shadow">
+      <div className="flex flex-col md:flex-row justify-between items-center p-4">
         <div className="text-4xl font-bold text-green-500 mb-4 md:mb-0">
           Printfy
         </div>
